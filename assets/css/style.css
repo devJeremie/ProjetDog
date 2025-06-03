@@ -106,7 +106,26 @@ input, select, textarea {
   object-fit: contain;
   pointer-events: none;
 }
-
+/*Gallery*/
+.galerie {
+	column-count: 3;
+    column-gap: 1em;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 1em;
+}
+.galerie img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+.titleGallery{
+	margin: 4em;
+	text-align:center;
+}
 
 /* Basic */
 
