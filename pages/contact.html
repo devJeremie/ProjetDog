@@ -11,19 +11,36 @@
     <!-- Header -->
 	<header id="header">
 		<h1>
-			<img class="logo" src="../images/logo2.png" alt="logo du site chien rigolo">
+			<a href="../index.html"><img class="logo" src="../images/logo2.png" alt="logo du site chien rigolo"></a>
 		</h1>
 		<nav>
 			<ul>
 				<li><a href="../index.html">Accueil</a></li>
-				<li><a href="">Qui sommes-nous</a></li>
-				<li><a href="">Nos animaux</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a href="./quiSommesNous.html">Qui sommes-nous</a></li>
+				<li><a href="./nosChiens.html">Nos animaux</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-    <h1>
-        Contact
-    </h1>
+    <section id="contact" class="main style3 secondary">
+		<div class="content">
+			<header>
+				<h2>Nous écrire</h2>
+				<p>N'hésitez pas à nous laissez un petit message, que ce soit pour nous envoyer une photo ou nous donner votre avis.</p>
+			</header>
+			<div class="box">
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half"><input type="text" name="name" placeholder="Votre Nom" /></div>
+						<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+						<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+					</div>
+					<ul class="actions special">
+						<li><input type="submit" value="Envoyer Message" /></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+			</section>
 </body>
 </html>
