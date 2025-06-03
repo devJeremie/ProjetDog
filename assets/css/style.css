@@ -126,6 +126,52 @@ input, select, textarea {
 	margin: 4em;
 	text-align:center;
 }
+.describe {
+  width: 30%;
+  margin: 0 auto;
+  
+}
+.describe article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f6f6f6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  min-height: 120px;
+  max-width: 600px;
+}
+.fromLeft {
+  flex-direction: row;
+  margin-right: auto;
+}
+
+.fromRight {
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.describeImg {
+  width: 15em;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  margin: 0 18px;
+}
+
+.description {
+  flex: 1;
+  font-size: 1.05em;
+  color: #444;
+  padding: 0 8px;
+}
+.describeAlign{
+	display: flex;
+	justify-content: center;
+	
+}
 
 /* Basic */
 
